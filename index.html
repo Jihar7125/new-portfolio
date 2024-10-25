@@ -1,0 +1,139 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF=8" />
+  <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>It's My Portofolio</title>
+  <link rel="stylesheet" href="./css/Style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+  <link rel="shortcut icon" href="./favicon/icons8-instagram-3d-fluency-192.png">
+  <script src="layout.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <header class="flex">
+      <div class="logo">Me and<span>...</span></div>
+      <nav>
+        <ul class="flex">
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Service</a></li>
+          <li><a href="#project">Portfolio</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+        <div id="search" class="flex">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" name="" id="" placeholder="search..." />
+        </div>
+      </nav>
+    </header>
+
+    <div class="main flex">
+      <div class="main-one">
+        <h1>Hi I am</h1>
+        <span id="element">Muhammad Nailul Jihar</span>
+        <p>
+          Hi My name is Muhammad Nailul Jihar,
+          i am from Indonesia and
+          i am a student and a freelancer,
+          now i live at Street Yous Sudarso No 4b Sambogunung Dukun Gresik
+        </p>
+        <button>Like</button>
+      </div>
+      <div class="main-two">
+        <img src="./Images/Sarangan.jpg" alt="Couple">
+      </div>
+    </div>
+
+    <section class="projects" id="project">
+      <h1>My Awesome <br /><span>Projects</span></h1>
+      <p>
+        It's protoype my website, if cannot display design of website, please contact me.
+        ini hanya tes uji website saya, jika tampilan websitenya tidak muncul, tolong hubungi saya
+      </p>
+      <button class="button">Like</button>
+      <div class="projects-div flex div-1">
+        <img src="./Images/CGV.jpg" alt="jempol" />
+        <h3>Me</h3>
+        <p>
+          it's prototype
+        </p>
+        <button>Live Preview</button>
+      </div>
+      <div class="projects-div flex div-2">
+        <img src="./Images/Me-_2_.jpg" alt="Selfie from me">
+        <h3>Me</h3>
+        <p>
+          It's prototype
+        </p>
+        <button>Live Preview</button>
+      </div>
+      <div class="projects-div flex div-3">
+        <img src="" alt="gowes">
+        <h3>Me</h3>
+        <p>
+          It's prototype
+        </p>
+        <button>Live Preview</button>
+      </div>
+    </section>
+    <br /><br />
+
+    <section class="about flex" id="about">
+      <div class="about-one">
+        <h1>About Me</h1>
+        <span>Muhammad Nailul Jihar</span>
+        <p>
+          Click "Open" Button If you Want To Know About Me
+        </p>
+        <div class="btns">
+          <button><a href="https://www.instagram.com/jihar_7125/" target="_blank">Like</a></button>
+          <button><a href="https://www.instagram.com/jihar_7125/" target="_blank">Share</a></button>
+          <button><a href="./About Me.html" target="_blank">Open</a></button>
+        </div>
+      </div>
+      <div class="about-two">
+        <img src="./Images/Pinggir.jpg" alt="saya" />
+      </div>
+    </section>
+    <br /> <br />
+
+    <section class="contact" id="contact">
+      <h1>Let Us</h1>
+      <div class="box flex">
+        <div>
+          <i class="fa-solid fa-user"></i>
+          <input type="text" placeholder="Name..." />
+        </div>
+        <div>
+          <i class="fa-solid fa-envelope"></i>
+          <input type="email" placeholder="Email..." />
+        </div>
+        <textarea name="" id="" cols="60" rows="5" placeholder="Enter your Message here..."></textarea>
+        <div>
+          <input type="submit" class="send" value="Send" />
+        </div>
+      </div>
+    </section>
+    <footer class="flex" id="footer">
+      <div class="copy">@copywrite 2022 Jihar.</div>
+      <div class="social">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-twitter"></i>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: [" ", "Front End Developer", "Student at University Trunojoyo Madura", "Muhammad Nailul Jihar"],
+      typeSpeed: 50
+    });
+  </script>
+</body>
+
+</html>
